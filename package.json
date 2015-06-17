@@ -1,0 +1,42 @@
+{
+  "name": "grunt-bower-link-snapshot",
+  "description": "Grunt Task: snapshot linked bower components for build servers",
+  "version": "0.0.1",
+  "homepage": "https://github.com/daemonl/grunt-bower-link-shapshot",
+  "author": {
+    "name": "Damien Whitten",
+    "email": "damien@rebase.com.au"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/daemonl/grunt-bower-link-snapshot"
+  },
+  "bugs": {
+    "url": "https://github.com/daemonl/grunt-bower-link-snapshot/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin", "ci", "bower", "build server"
+  ],
+  "dependencies": {
+  }
+}
