@@ -32,11 +32,13 @@
     "grunt": "~0.4.5"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin", "ci", "bower", "build server"
+    "gruntplugin",
+    "ci",
+    "bower",
+    "build server"
   ],
-  "dependencies": {
-  }
+  "dependencies": {}
 }
